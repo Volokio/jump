@@ -20,7 +20,7 @@ namespace Broadcasts
         public bool Debug { get; set; } = false;
 
         [Description("время бродкаста")]
-        public ushort Duration { get; set; } = 1;
+        public ushort Duration { get; set; } = 5;
 
         [Description("текст бродкаста при прыжке")]
         public string Textjump { get; set; } = "<color=green>ты прыгнул</color>";
